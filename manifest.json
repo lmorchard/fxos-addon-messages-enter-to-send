@@ -1,0 +1,14 @@
+{
+  "manifest_version": 1,
+  "name": "Messages - Enter to Send",
+  "description": "Enter key sends a message.",
+  "author": "Les Orchard",
+  "version": "1.0",
+  "content_scripts": [{
+    "matches": ["app://sms.gaiamobile.org/index.html"],
+    "css": [],
+    "js": ["index.js"]
+  }],
+  "icons": {
+  }
+}
